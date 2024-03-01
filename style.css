@@ -1,45 +1,50 @@
-body{
+body {
     background-color: hsl(212, 45%, 89%);
     /* width: 1440px; */
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+    font-family: "Outfit";
+    text-align: center;
 }
-.container{
+
+main {
     margin: auto;
-    width: 260px;
-    height: 400px;;
+    /* width: 260px;
+    height: 400px; */
+    max-width: 20rem;
     background-color: white;
     border-radius: 7px;
-    margin-top: 10%;
-    
-}
-.qr-image{
-width: 230px;
-height: 230px;
-margin-top: 15px;
-margin-left: 15px;
-margin-right: 15px;
-border-radius: 7px;
+    padding: 1rem;
 
 }
-.descp-title{
-    text-align: center;
-    font-family: "Outfit" Regular 400;
+
+h1 {
+    font-size: larger;
+}
+
+.qr-image {
+    width: 230px;
+    height: 230px;
+
+    display: block;
+    max-width: 100%;
+    border-radius: 7px;
+
+}
+
+.descp-title {
     color: hsl(218, 44%, 22%);
 }
-.descp{
+
+.descp {
     color: hsl(220, 15%, 55%);
     font-size: 11px;
-    text-align: center;
-    font-family: "Outfit" Regular 400;
 }
-@media (max-width:375px
-) {
-    body {
-        background-color: hsl(212, 45%, 89%);
-    }
-}
-@media (min-width: 1025px) and (max-width: 1440px){
-    body {
-        background-color: green;
-    }
-}
- 
+
+@media (max-width:375px) {}
+
+@media (min-width: 1025px) and (max-width: 1440px) {}
