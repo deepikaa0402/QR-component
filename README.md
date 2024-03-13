@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component
 
-![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the QR code component coding challenge](C:\Users\deepi\OneDrive\Desktop\frontend challenges\qr component\design\desktop-preview.jpg)
 
 ## Welcome! 👋
 
